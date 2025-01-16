@@ -1,1 +1,2 @@
-# iktprojectSzTech.github.io
+# Iskolai projekt
+## Egy kávézó weboldalának felújítása
