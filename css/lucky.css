@@ -1,32 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 body {
     background-color: #fbefdb;
-    font-family: "Oi", serif;
-    font-weight: 100;
-    font-style: normal;
 }
 
-.banner{
-    background-image: url(/img/banner.jpg);
-    height: 400px;
+nav {
+    background-color: #1f5b25;
+    padding: 15px;
+    position: fixed;
+    z-index: 5;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:first-child {
+    font-size: 1.5em;
+}
+
+nav a:first-child img {
+    width: 40px;
+}
+
+.banner {
+    background-image: url(../img/banner.jpg);
     background-position: center center;
     background-size: cover;
-
+    height: 400px;
 }
-.kave{
-    color:#1f5b25;
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    color: #1f5b25;
+    text-align: center;
+}
+
+.kave {
+    color: #1f5b25;
     background-color: #fff;
     border: 1px solid #1f5b25;
     border-radius: 4px;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    position: relative;
 }
-.kave:hover{
+
+.kave:hover {
     box-shadow: 0px 0px 5px #1f5b25;
 }
-.kave>h2{
+
+.kave h2 {
     font-size: 1rem;
     text-align: center;
-    margin-top:1rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     font-variant: small-caps;
+}
+
+#akcio {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
